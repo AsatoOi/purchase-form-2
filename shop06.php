@@ -10,3 +10,4 @@
   <button onclick="location.href='shop01.php'">ログアウト</button>
 <?php
   include("./layout/_footer.php");
+  session_destroy();
